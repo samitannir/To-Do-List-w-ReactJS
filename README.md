@@ -1,3 +1,5 @@
+Sami Tannir 101267426
+
 Simple To-Do list app made with React! (Local Memory)
 
 1. Clone this repo
