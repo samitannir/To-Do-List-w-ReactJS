@@ -1,0 +1,12 @@
+.ErrorMessage {
+  border: 1px solid #e20;
+  background-color: rgba(238, 34, 0, 0.2);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.ErrorMessage-Text {
+  color: #e20;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.FormSubmit {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+.FormSubmit-Button {
+  height: 40px;
+  padding: 0 20px;
+
+  background-color: #0069ce;
+  border: 0;
+  border-radius: 5px;
+
+  font: inherit;
+  font-weight: bold;
+  color: white;
+}
+.FormSubmit-Button:hover:not([disabled]) {
+  background-color: #00499e;
+  cursor: pointer;
+}
+.FormSubmit-Button__Loading,
+.FormSubmit-Button__Loading:hover {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.FormSubmit-Button__Disabled,
+.FormSubmit-Button__Disabled:hover {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+.FormSubmit-Button__Success,
+.FormSubmit-Button__Success:hover {
+  background-color: #3b6;
+  cursor: not-allowed;
+}

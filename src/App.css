@@ -1,0 +1,29 @@
+.App {
+  background: #47C5BB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+  border: 6px solid black;
+  width: 50%;
+  padding: 10px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#root {
+background: black;
+}
+
+.Title {
+text-align: center;
+}
+.App-Content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}

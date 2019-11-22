@@ -1,0 +1,16 @@
+.FormLabel {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.FormLabel-Text {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.FormLabel-SubText {
+  font-size: 14px;
+  color: #999;
+
+  padding-left: 6px;
+}
